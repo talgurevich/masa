@@ -9,7 +9,7 @@
     * { box-sizing: border-box; margin: 0; padding: 0; }
 
     body {
-      background: linear-gradient(135deg, #0f172a 0%, #1e293b 50%, #0f172a 100%);
+      background: linear-gradient(135deg, #0a1a1a 0%, #122a2a 50%, #0a1a1a 100%);
       min-height: 100vh;
       color: #e5e7eb;
       font-family: 'Heebo', sans-serif;
@@ -27,16 +27,16 @@
       text-align: center;
       margin-bottom: 48px;
       padding: 48px 40px;
-      background: linear-gradient(135deg, rgba(59,130,246,0.15) 0%, rgba(147,51,234,0.15) 100%);
+      background: linear-gradient(135deg, rgba(45,95,95,0.2) 0%, rgba(123,200,200,0.1) 100%);
       border-radius: 24px;
-      border: 1px solid rgba(148,163,184,0.2);
+      border: 1px solid rgba(123,200,200,0.2);
       backdrop-filter: blur(10px);
     }
 
     .header h1 {
       font-size: 2.6rem;
       font-weight: 800;
-      background: linear-gradient(135deg, #60a5fa 0%, #a78bfa 100%);
+      background: linear-gradient(135deg, #4da6a6 0%, #7bc8c8 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
@@ -45,7 +45,7 @@
 
     .header p {
       font-size: 1.15rem;
-      color: #94a3b8;
+      color: #8aacac;
     }
 
     /* Comparison Grid */
@@ -62,16 +62,16 @@
 
     /* Model Cards */
     .model-card {
-      background: rgba(15,23,42,0.85);
+      background: rgba(10,26,26,0.9);
       border-radius: 24px;
       overflow: hidden;
-      border: 1px solid rgba(148,163,184,0.2);
+      border: 1px solid rgba(77,166,166,0.2);
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
 
     .model-card:hover {
       transform: translateY(-6px);
-      box-shadow: 0 24px 48px rgba(0,0,0,0.35);
+      box-shadow: 0 24px 48px rgba(0,0,0,0.4);
     }
 
     .model-card.upwest { border-top: 5px solid #f97316; }
@@ -305,7 +305,7 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+      background: linear-gradient(135deg, #2d5f5f 0%, #4da6a6 100%);
       color: #fff;
       font-weight: 800;
       font-size: 1.3rem;
@@ -315,9 +315,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      box-shadow: 0 6px 24px rgba(99,102,241,0.45);
+      box-shadow: 0 6px 24px rgba(45,95,95,0.5);
       z-index: 10;
-      border: 3px solid rgba(255,255,255,0.1);
+      border: 3px solid rgba(123,200,200,0.2);
     }
 
     .comparison-wrapper {
@@ -331,16 +331,16 @@
 
     /* Hybrid Section */
     .hybrid-section {
-      background: linear-gradient(135deg, rgba(34,197,94,0.08) 0%, rgba(16,185,129,0.08) 100%);
+      background: linear-gradient(135deg, rgba(77,166,166,0.1) 0%, rgba(123,200,200,0.08) 100%);
       border-radius: 24px;
       padding: 36px;
       margin-bottom: 32px;
-      border: 1px solid rgba(34,197,94,0.2);
+      border: 1px solid rgba(77,166,166,0.25);
     }
 
     .hybrid-section h2 {
       font-size: 1.6rem;
-      color: #4ade80;
+      color: #7bc8c8;
       margin-bottom: 24px;
       display: flex;
       align-items: center;
@@ -359,10 +359,10 @@
     }
 
     .hybrid-item {
-      background: rgba(15,23,42,0.6);
+      background: rgba(10,26,26,0.6);
       padding: 24px;
       border-radius: 16px;
-      border: 1px solid rgba(148,163,184,0.15);
+      border: 1px solid rgba(77,166,166,0.15);
     }
 
     .hybrid-item h3 {
@@ -379,11 +379,11 @@
 
     /* Decision Section */
     .section {
-      background: rgba(15,23,42,0.7);
+      background: rgba(10,26,26,0.7);
       border-radius: 24px;
       padding: 32px;
       margin-bottom: 28px;
-      border: 1px solid rgba(148,163,184,0.2);
+      border: 1px solid rgba(77,166,166,0.2);
     }
 
     .section h2 {
@@ -407,7 +407,7 @@
 
     .decision-list li {
       padding: 16px 22px;
-      background: rgba(30,41,59,0.5);
+      background: rgba(18,42,42,0.5);
       border-radius: 14px;
       margin-bottom: 12px;
       font-size: 0.98rem;
@@ -415,12 +415,12 @@
       display: flex;
       align-items: flex-start;
       gap: 16px;
-      border: 1px solid rgba(148,163,184,0.1);
+      border: 1px solid rgba(77,166,166,0.1);
       transition: background 0.2s ease;
     }
 
     .decision-list li:hover {
-      background: rgba(30,41,59,0.8);
+      background: rgba(18,42,42,0.8);
     }
 
     .decision-list li::before {
@@ -428,7 +428,7 @@
       content: counter(item);
       min-width: 32px;
       height: 32px;
-      background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
+      background: linear-gradient(135deg, #2d5f5f 0%, #4da6a6 100%);
       border-radius: 50%;
       display: flex;
       align-items: center;
@@ -490,15 +490,15 @@
     }
 
     .req-table th {
-      background: linear-gradient(135deg, rgba(59,130,246,0.25) 0%, rgba(147,51,234,0.25) 100%);
-      color: #e0e7ff;
+      background: linear-gradient(135deg, rgba(45,95,95,0.4) 0%, rgba(77,166,166,0.3) 100%);
+      color: #a8e0e0;
       font-weight: 600;
     }
 
     .req-table td {
-      background: rgba(30,41,59,0.4);
+      background: rgba(18,42,42,0.4);
       color: #cbd5e1;
-      border-bottom: 1px solid rgba(148,163,184,0.1);
+      border-bottom: 1px solid rgba(77,166,166,0.1);
     }
 
     .req-table tr:last-child td {
@@ -506,7 +506,7 @@
     }
 
     .req-table tr:hover td {
-      background: rgba(30,41,59,0.7);
+      background: rgba(18,42,42,0.7);
     }
 
     /* Summary Comparison */
@@ -562,37 +562,37 @@
     </div>
 
     <!-- Goals & KPIs -->
-    <div class="section" style="background: linear-gradient(135deg, rgba(59,130,246,0.1) 0%, rgba(37,99,235,0.1) 100%); border-color: rgba(59,130,246,0.2);">
+    <div class="section" style="background: linear-gradient(135deg, rgba(45,95,95,0.15) 0%, rgba(77,166,166,0.1) 100%); border-color: rgba(77,166,166,0.25);">
       <h2><span class="icon">🎯</span> מטרות ו-KPIs</h2>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 
         <!-- Exposure Metrics -->
-        <div style="background: rgba(30,41,59,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(148,163,184,0.15);">
-          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: #64748b; margin-bottom: 12px; font-weight: 600;">שכבה א׳ — מדדי חשיפה (Exposure)</div>
-          <div style="color: #94a3b8; font-size: 0.85rem; margin-bottom: 16px;">אינדיקטורים — מראים מגמה</div>
+        <div style="background: rgba(18,42,42,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(77,166,166,0.15);">
+          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: #6a9a9a; margin-bottom: 12px; font-weight: 600;">שכבה א׳ — מדדי חשיפה (Exposure)</div>
+          <div style="color: #8aacac; font-size: 0.85rem; margin-bottom: 16px;">אינדיקטורים — מראים מגמה</div>
           <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="padding: 10px 14px; background: rgba(59,130,246,0.1); border-radius: 10px; margin-bottom: 8px; color: #93c5fd; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; margin-bottom: 8px; color: #7bc8c8; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
               <span>👁️</span> Impressions
             </li>
-            <li style="padding: 10px 14px; background: rgba(59,130,246,0.1); border-radius: 10px; margin-bottom: 8px; color: #93c5fd; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; margin-bottom: 8px; color: #7bc8c8; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
               <span>💬</span> Engagement (לייקים, תגובות, שיתופים)
             </li>
-            <li style="padding: 10px 14px; background: rgba(59,130,246,0.1); border-radius: 10px; color: #93c5fd; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; color: #7bc8c8; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
               <span>📈</span> צמיחת עוקבים
             </li>
           </ul>
         </div>
 
         <!-- Business Metrics -->
-        <div style="background: rgba(30,41,59,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(34,197,94,0.25);">
-          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: #64748b; margin-bottom: 12px; font-weight: 600;">שכבה ב׳ — מדדי עסקיים (Business Impact)</div>
-          <div style="color: #4ade80; font-size: 0.85rem; margin-bottom: 16px;">תוצאות — קובעות הצלחה</div>
+        <div style="background: rgba(18,42,42,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(168,224,224,0.25);">
+          <div style="font-size: 0.7rem; text-transform: uppercase; letter-spacing: 0.12em; color: #6a9a9a; margin-bottom: 12px; font-weight: 600;">שכבה ב׳ — מדדי עסקיים (Business Impact)</div>
+          <div style="color: #a8e0e0; font-size: 0.85rem; margin-bottom: 16px;">תוצאות — קובעות הצלחה</div>
           <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="padding: 10px 14px; background: rgba(34,197,94,0.1); border-radius: 10px; margin-bottom: 8px; color: #86efac; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
+            <li style="padding: 10px 14px; background: rgba(168,224,224,0.1); border-radius: 10px; margin-bottom: 8px; color: #a8e0e0; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
               <span>💰</span> תרומות — כמה כסף נכנס?
             </li>
-            <li style="padding: 10px 14px; background: rgba(34,197,94,0.1); border-radius: 10px; color: #86efac; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
+            <li style="padding: 10px 14px; background: rgba(168,224,224,0.1); border-radius: 10px; color: #a8e0e0; font-size: 0.9rem; display: flex; align-items: center; gap: 10px;">
               <span>📝</span> מועמדים — כמה נרשמים לתוכנית?
             </li>
           </ul>
@@ -600,47 +600,47 @@
 
       </div>
 
-      <div style="background: rgba(251,191,36,0.1); border: 1px solid rgba(251,191,36,0.25); border-radius: 12px; padding: 16px 20px; margin-top: 20px; text-align: center;">
-        <p style="color: #fcd34d; font-size: 0.9rem; margin: 0;">
+      <div style="background: rgba(45,95,95,0.2); border: 1px solid rgba(123,200,200,0.3); border-radius: 12px; padding: 16px 20px; margin-top: 20px; text-align: center;">
+        <p style="color: #a8e0e0; font-size: 0.9rem; margin: 0;">
           <strong>⚠️ שכבה א׳ היא אינדיקטור, שכבה ב׳ היא תוצאה.</strong><br>
-          <span style="color: #fde68a;">אפשר לצמוח ב-10,000 עוקבים ולקבל 0 תרומות ו-0 מועמדים.</span>
+          <span style="color: #7bc8c8;">אפשר לצמוח ב-10,000 עוקבים ולקבל 0 תרומות ו-0 מועמדים.</span>
         </p>
       </div>
     </div>
 
     <!-- Target Audiences -->
-    <div class="section" style="background: linear-gradient(135deg, rgba(168,85,247,0.1) 0%, rgba(139,92,246,0.1) 100%); border-color: rgba(168,85,247,0.2);">
+    <div class="section" style="background: linear-gradient(135deg, rgba(45,95,95,0.15) 0%, rgba(77,166,166,0.1) 100%); border-color: rgba(77,166,166,0.25);">
       <h2><span class="icon">👥</span> קהלי יעד</h2>
 
       <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
 
         <!-- Masa el HaOfek -->
-        <div style="background: rgba(30,41,59,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(168,85,247,0.25);">
-          <div style="font-size: 1.1rem; font-weight: 600; color: #c4b5fd; margin-bottom: 12px;">מסע אל האופק</div>
+        <div style="background: rgba(18,42,42,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(77,166,166,0.25);">
+          <div style="font-size: 1.1rem; font-weight: 600; color: #7bc8c8; margin-bottom: 12px;">מסע אל האופק</div>
           <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="padding: 10px 14px; background: rgba(168,85,247,0.1); border-radius: 10px; margin-bottom: 8px; color: #ddd6fe; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; margin-bottom: 8px; color: #a8e0e0; font-size: 0.9rem;">
               צעירים משוחררים עד 5 שנים מהשחרור
             </li>
-            <li style="padding: 10px 14px; background: rgba(168,85,247,0.1); border-radius: 10px; margin-bottom: 8px; color: #ddd6fe; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; margin-bottom: 8px; color: #a8e0e0; font-size: 0.9rem;">
               מסיימי שירות לאומי
             </li>
-            <li style="padding: 10px 14px; background: rgba(168,85,247,0.1); border-radius: 10px; color: #ddd6fe; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(77,166,166,0.1); border-radius: 10px; color: #a8e0e0; font-size: 0.9rem;">
               חיילי מילואים עד 10 שנים מהשחרור
             </li>
           </ul>
         </div>
 
         <!-- Ofek Tech -->
-        <div style="background: rgba(30,41,59,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(249,115,22,0.25);">
-          <div style="font-size: 1.1rem; font-weight: 600; color: #fdba74; margin-bottom: 12px;">אופק טק</div>
+        <div style="background: rgba(18,42,42,0.5); border-radius: 16px; padding: 24px; border: 1px solid rgba(45,95,95,0.4);">
+          <div style="font-size: 1.1rem; font-weight: 600; color: #4da6a6; margin-bottom: 12px;">אופק טק</div>
           <ul style="list-style: none; padding: 0; margin: 0;">
-            <li style="padding: 10px 14px; background: rgba(249,115,22,0.1); border-radius: 10px; margin-bottom: 8px; color: #fed7aa; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(45,95,95,0.2); border-radius: 10px; margin-bottom: 8px; color: #7bc8c8; font-size: 0.9rem;">
               בוגרי התוכנית
             </li>
-            <li style="padding: 10px 14px; background: rgba(249,115,22,0.1); border-radius: 10px; margin-bottom: 8px; color: #fed7aa; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(45,95,95,0.2); border-radius: 10px; margin-bottom: 8px; color: #7bc8c8; font-size: 0.9rem;">
               מנטורים עסקיים / יזמיים
             </li>
-            <li style="padding: 10px 14px; background: rgba(249,115,22,0.1); border-radius: 10px; color: #fed7aa; font-size: 0.9rem;">
+            <li style="padding: 10px 14px; background: rgba(45,95,95,0.2); border-radius: 10px; color: #7bc8c8; font-size: 0.9rem;">
               משקיעים
             </li>
           </ul>
@@ -778,12 +778,12 @@
     </div>
 
     <!-- Quick Summary -->
-    <div class="section" style="background: linear-gradient(135deg, rgba(99,102,241,0.1) 0%, rgba(168,85,247,0.1) 100%); border-color: rgba(99,102,241,0.2);">
+    <div class="section" style="background: linear-gradient(135deg, rgba(45,95,95,0.15) 0%, rgba(77,166,166,0.1) 100%); border-color: rgba(77,166,166,0.25);">
       <h2><span class="icon">⚡</span> סיכום מהיר</h2>
 
-      <div style="background: rgba(99,102,241,0.15); border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; text-align: center;">
-        <p style="color: #c7d2fe; font-size: 1rem; margin: 0;">
-          <strong style="color: #e0e7ff;">מטרה משותפת:</strong> משיכת מייסדים ומשקיעים לאקוסיסטם
+      <div style="background: rgba(77,166,166,0.15); border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; text-align: center;">
+        <p style="color: #a8e0e0; font-size: 1rem; margin: 0;">
+          <strong style="color: #c8f0f0;">מטרה משותפת:</strong> משיכת מייסדים ומשקיעים לאקוסיסטם
         </p>
       </div>
 
@@ -817,9 +817,9 @@
       <div class="info-block" style="border-bottom:none; margin-bottom:0; padding-bottom:0;">
         <div class="info-label">KPIs ל-90 יום</div>
         <div class="channels">
-          <span class="channel-tag" style="background:rgba(34,197,94,0.12);color:#4ade80;border-color:rgba(34,197,94,0.25);">% צמיחת עוקבים</span>
-          <span class="channel-tag" style="background:rgba(34,197,94,0.12);color:#4ade80;border-color:rgba(34,197,94,0.25);">הרשמות / חודש</span>
-          <span class="channel-tag" style="background:rgba(34,197,94,0.12);color:#4ade80;border-color:rgba(34,197,94,0.25);">הפניות מייסדים / חודש</span>
+          <span class="channel-tag" style="background:rgba(77,166,166,0.12);color:#7bc8c8;border-color:rgba(77,166,166,0.25);">% צמיחת עוקבים</span>
+          <span class="channel-tag" style="background:rgba(77,166,166,0.12);color:#7bc8c8;border-color:rgba(77,166,166,0.25);">הרשמות / חודש</span>
+          <span class="channel-tag" style="background:rgba(77,166,166,0.12);color:#7bc8c8;border-color:rgba(77,166,166,0.25);">הפניות מייסדים / חודש</span>
         </div>
       </div>
     </div>
