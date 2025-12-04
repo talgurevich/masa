@@ -359,8 +359,13 @@
       margin-bottom: 28px;
     }
 
+    @media (max-width: 900px) {
+      .content-strategy-grid { grid-template-columns: repeat(2, 1fr) !important; }
+    }
+
     @media (max-width: 700px) {
       .hybrid-grid { grid-template-columns: 1fr; }
+      .content-strategy-grid { grid-template-columns: 1fr !important; }
     }
 
     .hybrid-item {
@@ -654,6 +659,71 @@
               משקיעים
             </li>
           </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Content Strategy -->
+    <div class="section">
+      <h2><span class="icon">📝</span> אסטרטגיית תוכן</h2>
+
+      <div class="content-strategy-grid" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px;">
+
+        <!-- Event Updates -->
+        <div style="background: #f5f9f9; border-radius: 14px; padding: 20px; border: 1px solid rgba(77,166,166,0.15); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">📅</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">עדכוני אירועים</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">הכרזות, סיכומים, תמונות מאירועים</div>
+        </div>
+
+        <!-- Mentor & Company Spotlights -->
+        <div style="background: #f5f9f9; border-radius: 14px; padding: 20px; border: 1px solid rgba(77,166,166,0.15); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🌟</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">ספוטלייט מנטורים וחברות</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">הצגת מנטורים וחברות מאופק טק</div>
+        </div>
+
+        <!-- Media Articles -->
+        <div style="background: #f5f9f9; border-radius: 14px; padding: 20px; border: 1px solid rgba(77,166,166,0.15); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">📰</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">כתבות ומדיה</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">סיקור תקשורתי, ראיונות, פרסומים</div>
+        </div>
+
+        <!-- Alumni Success Stories -->
+        <div style="background: #f5f9f9; border-radius: 14px; padding: 20px; border: 1px solid rgba(77,166,166,0.15); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🎓</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">סיפורי הצלחה של בוגרים</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">בוגרים שהקימו סטארטאפים או התקדמו</div>
+        </div>
+
+        <!-- Registration CTAs -->
+        <div style="background: #eef5f5; border-radius: 14px; padding: 20px; border: 1px solid rgba(45,95,95,0.2); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">📣</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">קריאה להרשמה</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">פוסטים לגיוס נרשמים לתוכנית</div>
+        </div>
+
+        <!-- Educational Content -->
+        <div style="background: #eef5f5; border-radius: 14px; padding: 20px; border: 1px solid rgba(45,95,95,0.2); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">💡</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">תוכן חינוכי</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">טיפים, תובנות, ידע יזמי</div>
+        </div>
+
+        <!-- Behind the Scenes -->
+        <div style="background: #eef5f5; border-radius: 14px; padding: 20px; border: 1px solid rgba(45,95,95,0.2); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🎬</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">מאחורי הקלעים</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">הצצה לצוות, יום-יום בתוכנית</div>
+        </div>
+
+        <!-- Partner Highlights -->
+        <div style="background: #eef5f5; border-radius: 14px; padding: 20px; border: 1px solid rgba(45,95,95,0.2); text-align: center;">
+          <div style="font-size: 2rem; margin-bottom: 10px;">🤝</div>
+          <div style="font-size: 0.95rem; font-weight: 600; color: #1a3d3d; margin-bottom: 6px;">שותפים ומשקיעים</div>
+          <div style="font-size: 0.8rem; color: #4a7a7a; line-height: 1.5;">עדכונים על שותפויות אסטרטגיות</div>
         </div>
 
       </div>
